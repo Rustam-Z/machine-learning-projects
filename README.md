@@ -15,3 +15,4 @@ By Rustam_Z🚀 | Updated: December 4, 2020
 - [Face Recognition](Face-Regognition)
 
 ## OpenCV Projects
+- https://github.com/Rustam-Z/opencv-projects
