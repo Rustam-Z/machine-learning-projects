@@ -13,6 +13,7 @@ By Rustam_Z🚀 | Updated: December 4, 2020
 ## Deep Learning
 - [Logistic Regression as a Neural Network](Logistic-Regression-as-a-Neural-Network) - Cat/Not-Cat classificator using logistic regression model
 - [Face Recognition](Face-Regognition)
+- [Car Detection for Autonomous Driving](YOLO-car-detection)
 
 ## OpenCV Projects
 - https://github.com/Rustam-Z/opencv-projects
