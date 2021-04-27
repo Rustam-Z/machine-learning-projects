@@ -8,3 +8,6 @@ By Rustam_Z🚀 | Updated: December 4, 2020
 - [Linear Regression with multiple features](linear-regression-multiple-features)
 - [Combined cycle power plant](power-plant)
 - [US presidents heighs](US-presidents-heights)
+
+
+## In progress... Will be updated soon...
