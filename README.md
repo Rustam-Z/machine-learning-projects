@@ -1,7 +1,7 @@
 # Kaggle Problem Solving
 Machine Learning & Deep Learning Kaggle Problems Solved and Explained🎯
 
-Rustam-Z🚀 • December 4, 2020
+Rustam-Z🚀 • December 4, 2020 • Ju
 
 ## How to start
 - [The Beginner's Guide to Kaggle](https://elitedatascience.com/beginner-kaggle) main steps of applied ML process are **exploratory analysis**, **data cleaning**, **feature engineering**, and **model training**.
@@ -14,15 +14,6 @@ Rustam-Z🚀 • December 4, 2020
 - [Linear regression from scratch](linear-regression-from-scratch)
 - [Linear Regression with multiple features](linear-regression-multiple-features)
 - [Combined cycle power plant](power-plant)
-- [US presidents heighs](US-presidents-heights)
 
-## Kaggle
-
-<!-- 
-Pro Tips:
-
-pd.set_option("display.precision", 3)
-pd.set_option("display.expand_frame_repr", False)
-pd.set_option("display.max_rows", 25)
-
- -->
+## Kaggle Projects
+- [Titanic](titanic)
