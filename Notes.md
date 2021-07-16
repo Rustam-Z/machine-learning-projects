@@ -30,3 +30,9 @@ df_all.groupby(['Sex', 'Pclass']).agg(lambda x:x.value_counts().index[0])['Embar
 df.apply(np.sqrt)
 df_all['Deck'] = df_all['Cabin'].apply(lambda s: s[0] if pd.notnull(s) else 'M')
 ```
+```py
+def print_full(x):
+    pd.set_option('display.max_rows', len(x))
+    print(x)
+    pd.reset_option('display.max_rows')
+```
