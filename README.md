@@ -1,7 +1,7 @@
 # Kaggle Problem Solving
 Machine Learning & Deep Learning Kaggle Problems Solved and Explained🎯
 
-Rustam-Z🚀 • December 4, 2020 • Ju
+Rustam-Z🚀 • December 4, 2020
 
 ## How to start
 - [The Beginner's Guide to Kaggle](https://elitedatascience.com/beginner-kaggle) main steps of applied ML process are **exploratory analysis**, **data cleaning**, **feature engineering**, and **model training**.
@@ -15,3 +15,6 @@ Rustam-Z🚀 • December 4, 2020 • Ju
 
 ## Kaggle Projects
 - [Titanic](titanic)
+
+## Data Science Projects
+- [Data Science Jobs Salary Estimator](https://github.com/Rustam-Z/ds-salary-project)
