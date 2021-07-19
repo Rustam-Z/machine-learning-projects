@@ -36,3 +36,28 @@ def print_full(x):
     print(x)
     pd.reset_option('display.max_rows')
 ```
+```py
+# Using KMeans clustering as preprocessing for MNIST dataset
+from sklearn.datasets import load_digits
+from sklearn.model_selection import train_test_split
+from sklearn.pipeline import Pipeline
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import GridSearchCV
+
+X_digits, y_digits = load_digits(return_X_y=True)
+X_train, X_test, y_train, y_test = train_test_split(X_digits, y_digits, random_state=42)
+
+pipeline = Pipeline([
+    ("kmeans", KMeans(n_clusters=50, random_state=42)),
+    ("log_reg", LogisticRegression(multi_class="ovr", solver="lbfgs", max_iter=5000, random_state=42)),
+])
+pipeline.fit(X_train, y_train)
+pipeline_score = pipeline.score(X_test, y_test)
+pipeline_score
+
+param_grid = dict(kmeans__n_clusters=range(2, 100))
+grid_clf = GridSearchCV(pipeline, param_grid, cv=3, verbose=2)
+grid_clf.fit(X_train, y_train)
+grid_clf.best_params_
+grid_clf.score(X_test, y_test)  
+```
